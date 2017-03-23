@@ -1,0 +1,248 @@
+html {
+  font-size:10pt;
+  color: black;
+  width: auto;
+}
+
+header {
+  background-color: black;
+}
+
+nav {
+  background-color: #EbE9E7;
+}
+
+
+.nav-link-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  list-style: none;
+}
+
+.nav-links {
+  color: #D54C46;
+  font-size: 1.5rem;
+}
+
+
+.banner-link, .reserve-link {
+  display: flex;
+  justify-content: flex-end;
+  padding: .5rem;
+  color: red;
+  font-size: 1.5rem;
+}
+
+
+.kitties-to-go {
+  color: white;
+  font-size: 5rem;
+  margin-left: 2rem;
+}
+
+.byline {
+  color: lightgray;
+  font-size: 1.6rem;
+  margin-left: 2rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+article {
+  width: 70%;
+  margin: 1rem;
+}
+
+aside {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.story-title {
+  font-size: 2.5rem;
+}
+
+.story-text {
+ font-size: 1.6rem;
+}
+
+.testimonial-title {
+  font-size: 2.5rem;
+}
+
+.testimonial-text {
+  font-size: 1.6rem;
+}
+
+.special-offer-box {
+  border: 1px solid black;
+  margin: auto;
+  line-height: normal;
+}
+
+.cat-of-the-week {
+  font-size: 1.6rem;
+  text-align: center;
+
+}
+
+.weekly-cat-image {
+  display: flex;
+}
+
+
+.cat-name {
+  font-size: 1.6rem;
+  text-align: center;
+
+}
+
+.weekly-cat-description {
+  font-size: 1.4rem;
+  text-align: left;
+}
+
+
+.fan-favorite {
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+
+.footer {
+  background-color: black;
+}
+
+.email {
+  color:red;
+  padding-left: 1rem;
+  padding-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.contact {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  color: white;
+  font-size: 1.2rem;
+  line-height: 0rem;
+}
+
+.copyright-info {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem
+}
+
+
+
+.cat {
+  padding: 3rem;
+  margin: 1.5rem;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+
+footer {
+  position:relative;
+  float: left;
+  width: 100%;
+  background-color: #cccccc;
+  text-align:center;
+  font-style: italic;
+}
+
+
+
+#wrapper {
+  float: left;
+  padding-left: 12rem;
+  padding-right: 9rem;
+  overflow: hidden;
+}
+
+#left-side {
+  position: relative;
+  float: left;
+  width: 15rem;
+  /*background-color: black;*/
+  right: 12rem;
+  margin-left: -100%;
+  /*margin-bottom: -2000px;
+  padding-bottom: 2000px;*/
+
+}
+
+#right-side {
+  position: relative;
+  float: left;
+  width: 7rem;
+  background-color: darkgray;
+  color: black;
+  margin-right: -7rem;
+  margin-bottom: -100rem;
+  padding-bottom: 100rem;
+
+}
+#right-side a:hover a:active{
+  font-size: 1rem;
+  font-weight: bold;
+  color: green;
+  text-decoration: none;
+}
+
+#right-side a:link  a:visited{
+  font-size: 1rem;
+  font-weight: bold;
+  color: yellow;
+  text-decoration: none;
+}
+
+#content-area {
+  position: relative;
+  float: left;
+  background-color: #ffffff;
+  width: 100%;
+  margin-bottom: -2000px;
+  padding-bottom: 2000px;
+
+}
+
+h1 {
+  margin: 0;
+}
+
+#left-side ul {
+  list-style: none;
+  margin: 12px 0px 0px 12px;
+  padding: 0px;
+}
+
+#left-side li a:link, #nav li a:visited {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: .25rem 0px .25rem .25rem;
+  color: gray;
+  text-decoration: none;
+  display: block;
+}
+
+#left-side li a:hover, #nav li a:active {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: .25rem 0px .25rem .25rem;
+  color: darkgray;
+  text-decoration: none;
+  display: block;
+}
